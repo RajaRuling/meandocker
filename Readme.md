@@ -1,8 +1,11 @@
 # Commands
 
+<!--
 ## Git
 
 [Link](https://github.com/lydemann/docker-meanstack-demo/tree/master/client)
+
+-->
 
 ## Angular
 
@@ -26,6 +29,8 @@ docker run -p 27017:27017 mongo
 
 ```zsh
 docker-compose up
+
+Removal
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 docker rmi $(docker images -a -q)
